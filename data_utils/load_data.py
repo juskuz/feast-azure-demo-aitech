@@ -9,7 +9,7 @@ from sqlalchemy.engine import Connection
 from azureml.core import Workspace, Datastore
 
 
-CONFIG_PATH = "/mnt/c/config.json" # change if needed
+CONFIG_PATH = "/content/feast-azure-demo-aitech/config.json" # change if needed
 DATA_DIR = "../data"
 
 

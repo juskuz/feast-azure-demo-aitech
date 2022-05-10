@@ -3,7 +3,7 @@ import os
 from feast import FeatureStore
 from azureml.core import Workspace
    
-CONFIG_PATH = "/mnt/c/config.json" # change path if needed
+CONFIG_PATH = "/content/feast-azure-demo-aitech/config.json" # change path if needed
 
 def create_fs() -> FeatureStore:
     ws = Workspace.from_config(CONFIG_PATH)
